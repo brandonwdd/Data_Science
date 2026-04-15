@@ -1,0 +1,31 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+.DS_Store
+Thumbs.db
+
+/data/raw/
+
+# Keep plots for GitHub showcase, ignore tabular artifacts
+/outputs/**/*.csv
+/outputs/**/*.parquet
+/outputs/**/*.json
+/outputs/**/*.xlsx
+# README images: keep outputs/plots/*.png *.jpg *.jpeg tracked (do not add ignore rules for them)
+
+/data/interim/**/*.csv
+/data/interim/**/*.parquet
+/data/interim/**/*.json
+/data/interim/**/*.xlsx
+
+/data/processed/**/*.csv
+/data/processed/**/*.parquet
+/data/processed/**/*.json
+/data/processed/**/*.xlsx
